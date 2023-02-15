@@ -1,0 +1,11 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://${MYSQL_IP:47.115.229.58}:${MYSQL_PORT:3306}/wx?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+        username: ${MYSQL_USERNAME:root}
+        password: ${MYSQL_PASSWORD:wx123456}
+
+springfox:
+    documentation:
+        swagger-ui:
+            enabled: true
